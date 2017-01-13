@@ -51,3 +51,16 @@ npm install -g grunt-cli
 Then to run the tests use ```npm test```
 
 On Windows, use ```npm run testwindows```
+
+
+# Metrics support
+
+Mesure performance of the fh-mbaas api using grafana and influxdb.
+
+   > METRICS_HOST
+   
+   hostname of the influxdb service
+  
+   > METRICS_PORT
+   
+   influxdb port (using udp)
